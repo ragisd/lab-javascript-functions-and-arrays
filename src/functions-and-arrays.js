@@ -1,6 +1,14 @@
 // Iteration #1: Find the maximum
-function maxOfTwoNumbers() {}
+function maxOfTwoNumbers(a,b) {
+  if(a > b){
+    console.log(a + "is greater");
+  }
+  else{
+    console.log(b + "is greater");
+  }
+}
 
+maxOfTwoNumbers(2,7);
 
 
 // Iteration #2: Find longest word
